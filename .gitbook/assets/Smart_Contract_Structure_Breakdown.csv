@@ -1,0 +1,9 @@
+Component,Description
+start_session Handler,"Collects entry fee in KC, burns 1.25 KC, transfers 11.25 KC to treasury, initializes GameSession with default values, sets random seed from timestamp."
+next_day Instruction,"Handles one day’s events on-chain, applies random price/event effects, executes trades, increments day_count, ends session if 30 days passed."
+end_session Handler,"Finalizes session, awards points, updates PlayerProfile, enforces caps (50M per month), emits SessionResult event, closes session account."
+buy_item Handler,"Processes permanent item purchase, burns 20% of cost, transfers 80% to treasury, marks item as owned, optionally mint NFT."
+calc_apr_tier Function,"Utility function to determine tier and APR based on points, max 13% APR, likely used in staking program."
+Account Structures,"GameSession for per-game state, PlayerProfile for persistent player data, monthly points reset externally, supports multi-game rules."
+Contexts and Access Control,"Defines accounts/signers for each instruction, uses Anchor constraints for validation, PDAs ensure only program creates accounts, player must sign transactions."
+Error Handling,"Custom GameError enum for failure cases, Anchor returns codes/messages if constraints fail, ensures atomic operations and game rules enforcement."
