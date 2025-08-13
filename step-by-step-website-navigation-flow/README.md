@@ -14,7 +14,23 @@ While not logged in, the user can freely browse informational sections of the si
 
 ### Demo Mode
 
-Without a wallet, if the user tries to play a game, the platform offers a Demo Mode option for both SOLar Mission and Degen Trader. In demo mode, the user can play a session for free (no KC required) to get a feel for the gameplay mechanics, though no tokens or points are earned in this mode. This serves as a risk-free onboarding experience. The site may show an onboarding prompt or pop-up explaining that to play and earn rewards or points, a crypto wallet connection is required. Responsible gaming prompts (e.g. budget limits, warnings) are also provided to new users, encouraging mindful play and offering resources for help. At this stage, the user is encouraged to proceed by connecting their Solana wallet to fully access all features.
+For new users without a connected wallet, the platform offers a Demo Mode option for both SOLar Mission and Degen Trader. This mode provides a free, no-KC-required introduction to gameplay mechanics, allowing players to experience the platform without any financial commitment.
+
+* When a user attempts to start a game without a connected wallet, the system displays an **Onboarding Prompt** explaining Demo Mode, alongside a clear note that **tokens, points, and APR boosts cannot be earned** in this mode.
+* Players can instantly launch the game in demo form without needing to sign up or deposit.
+* **Responsible Gaming prompts** are shown, highlighting budget tips, mindful play, and links to responsible gaming resources.
+
+**SOLar Mission (Crash Game)**
+
+* Players receive a 1-minute demo session with standard game visuals and mechanics.
+* They start with a fixed demo points balance, can place bets, and see how multipliers, cash-outs, and crashes work.
+* No KC is spent, no burns occur, and no leaderboard updates are made.
+
+**Degen Trader (Trading Simulation)**
+
+* Players can try a 15 in-game day simulation in Demo Mode (half of the standard 30-day paid session).
+* They start with $2,000 virtual in-game currency, can trade coins, react to random events, and experience the portfolio growth mechanic.
+* At the end of 15 days, a summary screen shows their “what-if” earnings had they been playing the live mode.
 
 ### Wallet Connect Trigger
 

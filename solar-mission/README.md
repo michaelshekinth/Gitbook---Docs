@@ -39,6 +39,7 @@ Players connect their Solana wallet, pay a small KC entry fee, and bet on how fa
 
 * Purpose: Let new players experience SOLar Mission without financial risk.
 * No wallet connection required.
+* Players can play the rocket game for 1 minute on demo
 * Starts with virtual KC balance for practice.
 * No rewards or burns — purely for learning gameplay.
 * Available at all times, ideal for onboarding and tutorials.

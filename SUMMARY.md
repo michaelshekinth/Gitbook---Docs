@@ -26,7 +26,7 @@
 * [SOLar Mission](solar-mission/README.md)
   * [Process of Building](solar-mission/process-of-building.md)
   * [Game-Play](solar-mission/game-play.md)
-  * [Mutiplayer with Logic](solar-mission/mutiplayer-with-logic.md)
+  * [Single Player with Logic](solar-mission/single-player-with-logic.md)
   * [Game Session End](solar-mission/game-session-end.md)
   * [Sample Contract](solar-mission/sample-contract/README.md)
     * [Math Calculation with Tokenomics](solar-mission/sample-contract/math-calculation-with-tokenomics.md)

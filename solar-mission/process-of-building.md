@@ -83,9 +83,9 @@ This document provides an overview of the smart contract functionalities for man
   4. Storing the player’s final score at session end for point conversion
   5. Optional: Skin/enhancement purchases with 20% burn.
 * **Backend** in Node.js will:
-  * Handle matchmaking and multiplayer leaderboards
-  * Cache multiplier sequences for animation playback (though official outcomes are on-chain)
-  * Relay VRF results from Solana to the frontend
+  * **Serve deterministic animation paths**: pre‑compute and cache a smooth multiplier curve for each round (for client animation only). Final crash point/outcome is taken from the on‑chain VRF result; if animation and VRF differ, the VRF truth wins.
+  * **Ingest Solana on‑chain events** (KC transfers, burns, game session starts/ends, referral payouts, staking updates, RNG/VRF proofs) and normalize them for the web app.
+  * **GameSessionStarted / GameSessionEnded** (per wallet) — ties a 12.5 KC entry to a session id; links to on‑chain RNG proof for crashes or price events.
 
 ### Backend Architecture (Node.js)
 
