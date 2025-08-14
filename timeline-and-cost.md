@@ -31,7 +31,7 @@
 
 | **Milestone**             | **Timeline** | **% of Total** | **Amount (USDT)** | **Scope**                                                             |
 | ------------------------- | ------------ | -------------- | ----------------- | --------------------------------------------------------------------- |
-| **Milestone 1 (Upfront)** | Week 1       | **28%**        | **6,500 USDT**    | Project initiation, architecture finalization, UI/UX design.          |
+| **Milestone 1 (Upfront)** | Week 1       | **28%**        | **6,250 USDT**    | Project initiation, architecture finalization, UI/UX design.          |
 | **Milestone 2**           | Week 4       | **25%**        | **6,000 USDT**    | Smart contract phase 1 completion, staking & KC token live on devnet. |
-| **Milestone 3**           | Week 7       | **26%**        | **6,250 USDT**    | Games functional on devnet with staking, burns, points system.        |
-| **Milestone 4**           | Week 10      | **21%**        | **5,250 USDT**    | Mainnet deployment, full platform handover, documentation.            |
+| **Milestone 3**           | Week 7       | **26%**        | **6,000 USDT**    | Games functional on devnet with staking, burns, points system.        |
+| **Milestone 4**           | Week 10      | **21%**        | **5,000 USDT**    | Mainnet deployment, full platform handover, documentation.            |
